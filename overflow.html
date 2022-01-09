@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow visible hidden </title>
+    <style>
+        .mega-box {
+            border: 2px solid green;
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            /* overflow: hidden; scroll, visible */
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .small {
+            width: 150px;
+            border: 1px solid indianred;
+            overflow: hidden;
+        }
+        .short-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bangladesh is a beautiful country.</h1>
+    <div class="small">
+        <p class="short-text" title="If you want to get money you send me your bKsh number.">If you want to get money you send me your bKsh number.</p>
+    </div>
+    <div class="mega-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae esse explicabo, tempore consectetur saepe velit est, voluptatum praesentium deleniti animi odio exercitationem ut nesciunt perspiciatis sunt? At labore accusamus velit eos ab aspernatur exercitationem facilis eveniet quasi eius id suscipit recusandae facere in vero beatae veritatis molestias et minus aliquam, voluptate repudiandae. Aspernatur expedita perspiciatis ab voluptates, molestiae officia atque cum totam maxime, doloremque eos exercitationem minima excepturi fuga vitae.</p>
+    </div>
+    <div class="mega-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae esse explicabo, tempore consectetur saepe velit est, voluptatum praesentium deleniti animi odio exercitationem ut nesciunt perspiciatis sunt? At labore accusamus velit eos ab aspernatur exercitationem facilis eveniet quasi eius id suscipit recusandae facere in vero beatae veritatis molestias et minus aliquam, voluptate repudiandae. Aspernatur expedita perspiciatis ab voluptates, molestiae officia atque cum totam maxime, doloremque eos exercitationem minima excepturi fuga vitae.</p>
+    </div>
+        <div class="mega-box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae esse explicabo, tempore consectetur saepe velit est, voluptatum praesentium deleniti animi odio exercitationem ut nesciunt perspiciatis sunt? At labore accusamus velit eos ab aspernatur exercitationem facilis eveniet quasi eius id suscipit recusandae facere in vero beatae veritatis molestias et minus aliquam, voluptate repudiandae. Aspernatur expedita perspiciatis ab voluptates, molestiae officia atque cum totam maxime, doloremque eos exercitationem minima excepturi fuga vitae.</p>
+        </div>
+   
+</body>
+</html>
